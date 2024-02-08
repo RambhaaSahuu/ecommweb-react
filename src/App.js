@@ -4,7 +4,7 @@ import {About} from "./About";
 import Contact from "./Contact";
 import Products  from "./Products";
 import SingleProduct from "./SingleProduct";
-import {Home } from "./Home";
+import Home from "./Home";
 import Cart from "./Cart";
 import {ErrorPage} from "./ErrorPage";
 import {GlobalStyle} from "./GlobalStyle";
@@ -14,7 +14,7 @@ import { ThemeProvider } from "styled-components";
 const App = () => {
   const theme = {
     colors: {
-      bg: "#fff",
+      bg: "#000",
     },
   };
   return(
